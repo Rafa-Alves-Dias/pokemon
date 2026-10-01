@@ -145,9 +145,10 @@ body {
   border: 2px solid #1b1b1b;
 }
 
-.poke-info:hover{
+.poke-info p:hover{
   color:#fff;
-  background-color: #1b1b1b;
+  background: #ff3b3b;
+  border-color: #7a0e0e;
 }
 .poke-info.error {
   color: #ba1c1c;
