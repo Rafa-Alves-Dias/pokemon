@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./favicon/pokeball.png">
+  <title>Pokédex - Async/Await</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="pokedex">
+    <div class="pokedex__top">
+      <span class="led led--red"></span>
+      <span class="led led--yellow"></span>
+      <span class="led led--green"></span>
+      <h1 class="pokedex__title">Pokédex</h1>
+    </div>
+
+    <div class="pokedex__screen">
+      <div id="pokeInfo" class="poke-info">
+        <p class="placeholder">Digite o nome ou número de um Pokémon 🔍</p>
+      </div>
+    </div>
+
+    <form id="pokeForm" class="pokedex__controls">
+      <input type="text" id="pokemonInput" placeholder="Ex: pikachu ou 25" autocomplete="off">
+      <button type="submit" id="btnBuscar">Buscar</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
